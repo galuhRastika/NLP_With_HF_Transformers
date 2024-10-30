@@ -2,24 +2,24 @@
 <p align="center"> This project is a practical guide to using Hugging Face's Transformers library, illustrating how to load models, tokenize inputs, and perform NLP tasks like sentiment analysis. The notebook explores the power of Transformer-based models for natural language understanding, leveraging the simplicity and versatility of the Hugging Face ecosystem.</p>
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+   
+<img src="https://img.shields.io/badge/python-3.8%2B-blue">
 <img src="https://img.shields.io/badge/Hugging%20Face-transformers-orange">
 <img src="https://colab.research.google.com/assets/colab-badge.svg">
 <img src="https://img.shields.io/badge/Jupyter-notebook-orange?logo=jupyter">
 <img src="https://img.shields.io/badge/Notebook-Jupyter-informational?logo=python&color=green">
+</div>
 
 ---
 
 ## 📝 Contents
-
-1. *Introduction to Transformers*
+1. Introduction to Transformers
    - Learn the basics of Transformer models and the Hugging Face library.
-2. *Loading and Tokenizing Models*
+2. Loading and Tokenizing Models
    - Step-by-step guide to load pre-trained models and tokenizers.
-3. *Encoding Text and Making Predictions*
+3. Encoding Text and Making Predictions
    - Encode text data and run predictions using the model.
-4. *Pipeline Utility for NLP Tasks*
+4. Pipeline Utility for NLP Tasks
    - Using the pipeline API for quick and effective text classification.
 
 ## 🚀 Getting Started
@@ -84,6 +84,3 @@ The notebook showcases the ease with which Transformer models can be integrated 
 Future enhancements could include visualizations for embeddings and attention patterns to better understand model predictions.
 
 ```bash
-git clone <repo-url>
-cd NLP-with-Transformers
-pip install transformers torch

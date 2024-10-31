@@ -74,7 +74,8 @@ print(result)  # [{"label": "POSITIVE", "score": 0.99}]
 
 ## ✨ Analysis
 
-The notebook showcases the ease with which Transformer models can be integrated into projects using Hugging Face’s APIs. By loading models and tokenizers, we observe the significance of tokenization in preparing text data for model inference. The pipeline API is particularly powerful for quick prototypes, as it abstracts the complexities of NLP tasks like sentiment analysis.
+This notebook showcases the ease of integrating Transformer models into projects using the Hugging Face API. By loading the model and tokenizer, we observe the importance of tokenization in preparing text data for model inference. API pipelines are especially useful for rapid prototyping, as they abstract away the complexity of NLP tasks such as sentiment analysis. You can check a more complete analysis at:arrow_down:
+
 
 ### 📌 Key Observations
 

@@ -27,47 +27,50 @@
 ### 1. Setup
 To get started, clone this repository and install the required libraries.
 
-bash
+```bash
 git clone <repo-url>
 cd NLP-with-Transformers
 pip install transformers torch
+```
+
 
 
 ### 2. Load a Model and Tokenizer
 The Hugging Face library makes it incredibly easy to load state-of-the-art models. In this example, we use the distilbert-base-uncased model, which is efficient and performs well on many NLP tasks.
-
+```bash
 python
 from transformers import AutoTokenizer, AutoModel
 
 model_name = "distilbert-base-uncased"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModel.from_pretrained(model_name)
+```
 
 
 ### 3. Tokenize Text Inputs
 Transform raw text into model-compatible formats using the tokenizer.
-
+```bash
 python
 inputs = tokenizer("Hello, how are you?", return_tensors="pt")
-
+```
 
 ### 4. Run the Model
 Once tokenized, pass the inputs to the model to obtain predictions.
-
+```bash
 python
 outputs = model(**inputs)
-
+```
 
 ### 5. Using the Pipeline API
 For tasks like text classification, Hugging Face's pipeline simplifies the process:
-
+```bash
 python
 from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis")
 result = classifier("I love using Hugging Face Transformers!")
 print(result)  # [{"label": "POSITIVE", "score": 0.99}]
-
+```
 
 ## ✨ Analysis
 

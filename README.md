@@ -3,11 +3,12 @@
 
 <div align="center">
    
-<img src="https://img.shields.io/badge/python-3.8%2B-blue">
-<img src="https://img.shields.io/badge/Hugging%20Face-transformers-orange">
-<img src="https://colab.research.google.com/assets/colab-badge.svg">
-<img src="https://img.shields.io/badge/Jupyter-notebook-orange?logo=jupyter">
-<img src="https://img.shields.io/badge/Notebook-Jupyter-informational?logo=python&color=green">
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+<img src="https://img.shields.io/badge/Hugging%20Face%20Transformers-FFAE1A?style=for-the-badge&logo=huggingface&logoColor=white">
+<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
+<img src="https://img.shields.io/badge/Jupyter-FFD43B?style=for-the-badge&logo=jupyter&logoColor=white">
+<img src="https://img.shields.io/badge/Notebook-5B3F97?style=for-the-badge&logo=notepad&logoColor=white">
+
 </div>
 
 ---
